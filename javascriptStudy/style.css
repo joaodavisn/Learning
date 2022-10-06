@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #171618;
+    color: #fffef1;
+    font-family: 'Inter', sans-serif;
+}
+
+.id {
+    padding: 5px;
+    background-color: #3b3344;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.data {
+    padding: 5px;
+    background-color: #2d2b30;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.removeBtn {
+    padding: 5px;
+    background-color: #56406b;
+    color: #2c2335;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 20px;
+    width: fit-content;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.removeBtn:hover {
+    background-color: #a76ee0;
+    color: #ead4ff;
+}
+
+.borderpad {
+    padding: 5px;
+    background-color: #201f22;
+    display: flex;
+    width: fit-content;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #cfcfcf;
+}
+
+input {
+    padding: 5px;
+    background-color: #2d2b30;
+    border: none;
+    border-radius: 5px;
+    color: #fffef1;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.addButton, .removeButton {
+    padding: 5px;
+    background-color: #56406b;
+    color: #2c2335;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.addButton:hover, .removeButton:hover {
+    background-color: #a76ee0;
+    color: #ead4ff;
+}
